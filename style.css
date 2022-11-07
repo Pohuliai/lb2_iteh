@@ -1,0 +1,23 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.cell {
+  flex: 0 0 33%;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: #0f0f54;
+}
+
+.cell:nth-of-type(2){
+  height: 100px;
+}
+
+
+
+.text{
+  color: aliceblue;
+}
